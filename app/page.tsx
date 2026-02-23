@@ -1,5 +1,10 @@
+import { BaseButton } from '../components/base-button';
+
 export default function Home() {
   return (
-    <h1>Hello Next.js</h1>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <h1 className="text-4x1 font-bold">Hello Next.js</h1>
+    <BaseButton/>
+    </main>
   );
 }
