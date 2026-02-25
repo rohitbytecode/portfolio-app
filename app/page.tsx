@@ -1,10 +1,31 @@
-import { BaseButton } from '../components/base-button';
+import Sidebar from "@/components/Sidebar";
+import Navbar from "@/components/Navbar";
+import About from "@/components/About";
+import Portfolio from "@/components/Portfolio";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <h1 className="text-4x1 font-bold">Hello Next.js</h1>
-    <BaseButton/>
-    </main>
+    <div className="app-container">
+      <Sidebar />
+
+      <div className="content-area">
+        <Navbar />
+
+        <main>
+          <section id="about">
+            <About />
+          </section>
+
+          <section id="portfolio">
+            <Portfolio />
+          </section>
+
+          <section id="contact">
+            <Contact />
+          </section>
+        </main>
+      </div>
+    </div>
   );
 }

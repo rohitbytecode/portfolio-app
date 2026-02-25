@@ -1,22 +1,19 @@
-import type { Metadata } from "next";
-import "../styles/globals.css";
-import React from "react";
-
-export const metadata: Metadata = {
-  title: "Rohit More portfolio",
-  description: "The portfolio project of rohit",
+export const metadata = {
+  title: "Rohit | Backend Engineer",
+  description:
+    "Backend Engineer specializing in DSA, scalable backend systems, CI/CD and DevOps.",
 };
 
-export default function Dashboardlayout({
+import "./globals.css";
+
+export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html>
-      <body>
-        <main>{children}</main>
-      </body>
+    <html lang="en" suppressHydrationWarning>
+      <body>{children}</body>
     </html>
-  )
+  );
 }
