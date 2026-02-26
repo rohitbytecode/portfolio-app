@@ -4,6 +4,22 @@ export default function Portfolio() {
       <h2>Portfolio</h2>
 
       <div className="projects-grid">
+
+        <div className="project-card">
+          <div className="project-content">
+            <h3>QR Code Generator</h3>
+            <p>
+              QR code generator with CLI and environment config, for scalable backend integration.
+            </p>
+            <div></div>
+            <div className="project-links">
+              <a href="https://github.com/rohitbytecode/qr-generator" target="_blank" className="btn">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div className="project-card">
           <div className="project-content">
             <h3>Hospital Management System</h3>
