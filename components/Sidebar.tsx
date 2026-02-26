@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 export default function Sidebar() {
   return (
     <aside className="sidebar">
@@ -12,8 +14,14 @@ export default function Sidebar() {
       </div>
 
       <div className="sidebar-links">
-        <a href="https://github.com/rohitbytecode">GitHub</a>
-        <a href="https://www.linkedin.com/in/rohit--more/">LinkedIn</a>
+        <a href="https://github.com/rohitbytecode" target="_blank" rel="noopener noreferrer">
+        <FaGithub className="icon"/>
+        GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/rohit--more/" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin className="icon" />
+        LinkedIn
+        </a>
       </div>
 
       <a href="/resume.pdf" target="_blank" className="btn">

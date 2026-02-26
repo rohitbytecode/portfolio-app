@@ -77,12 +77,32 @@ body {
 .btn {
   display: inline-block;
   padding: 10px 18px;
+  margin-top: 20px;
   background: linear-gradient(135deg, var(--primary), #9333ea);
   color: white;
   border-radius: 8px;
   text-decoration: none;
   border: none;
   cursor: pointer;
+}
+
+.sidebar-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 12px;
+  transition: color 0.2s ease;
+}
+
+.sidebar-links a:hover {
+  color: #9333ea;
+}
+
+.icon {
+  font-size: 18px;
 }
 
 /* Content */
