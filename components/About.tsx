@@ -11,35 +11,35 @@ export default function About() {
 
       <div className="card-grid">
         <div className="card">
-          <h3>Web Development</h3>
+          <h3>Backend Engineering</h3>
           {/* <p>
-            High-quality backend development using Node.js,
-            authentication systems, RBAC and optimized APIs.
+            Building RESTful APIs using Node.js and Express with 
+            authentication, RBAC, and secure data handling.
           </p> */}
         </div>
 
         <div className="card">
-          <h3>DSA & System Design</h3>
+          <h3>Problem Solving</h3>
           {/* <p>
-            Strong algorithmic thinking with focus on performance,
-            complexity optimization and scalable systems.
+          Practicing Data Structures & Algorithms in Java with 
+          focus on time complexity, optimization, and logical reasoning.
           </p> */}
         </div>
 
         <div className="card">
-          <h3>CI/CD & DevOps</h3>
-          {/* <p>
-            Implemented CI/CD pipelines using GitHub Actions,
-            Dockerized applications and cloud deployment.
-          </p> */}
+          <h3>DevOps & Automation</h3>
+            {/* <p>
+            Implementing CI/CD pipelines using GitHub Actions, 
+            containerizing applications with Docker, and managing deployments.
+            </p> */}
         </div>
 
         <div className="card">
-          <h3>Deployment</h3>
-          {/* <p>
-            Experience deploying production systems with
-            monitoring, versioning and environment management.
-          </p> */}
+          <h3>Deployment & Monitoring</h3>
+            {/* <p>
+            Deploying backend services to cloud platforms with 
+            monitoring and performance insights using Prometheus.
+            </p> */}
         </div>
       </div>
     </div>
