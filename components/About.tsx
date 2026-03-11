@@ -42,6 +42,11 @@ export default function About() {
             </p> */}
         </div>
       </div>
+      <blockquote className="about-quote">
+  I focus on building maintainable backend systems, analyzing
+  performance bottlenecks, and continuously improving engineering
+  practices through hands-on development.
+</blockquote>
     </div>
   );
 }

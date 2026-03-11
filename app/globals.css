@@ -97,6 +97,30 @@ body {
   transition: color 0.2s ease;
 }
 
+.about-quote::before {
+  content: "❝";
+  font-size: 28px;
+  position: absolute;
+  left: -12px;
+  top: -10px;
+  color: var(--primary);
+  background: var(--bg);
+  padding: 0 6px;
+}
+
+.about-quote {
+  margin-top: 30px;
+  padding: 18px 22px;
+  border-left: 4px solid var(--primary);
+  background: var(--card);
+  color: var(--text);
+  font-style: italic;
+  line-height: 1.7;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  position: relative;
+}
+
 .sidebar-links a:hover {
   color: #9333ea;
 }
