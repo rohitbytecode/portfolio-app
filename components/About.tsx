@@ -41,12 +41,10 @@ export default function About() {
             monitoring and performance insights using Prometheus.
             </p> */}
         </div>
+        </div>
+          <blockquote className="about-quote">
+            “A system is only as strong as its weakest dependency.”
+          </blockquote>
       </div>
-      <blockquote className="about-quote">
-  I focus on building maintainable backend systems, analyzing
-  performance bottlenecks, and continuously improving engineering
-  practices through hands-on development.
-</blockquote>
-    </div>
   );
 }
