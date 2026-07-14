@@ -3,17 +3,18 @@ export default function Contact() {
     <div className="section-container">
       <h2>Contact</h2>
 
-      <form className="contact-form">
+      <form action="https://api.web3forms.com/submit" method="POST" className="contact-form">
+        <input type="hidden" name="access_key" value="e53f1e24-94e2-455e-9c1d-3f1476f4698d"/>
         <div className="form-group">
-          <input type="text" className="form-control" placeholder="Name" required />
+          <input type="text" name="name" className="form-control" placeholder="Name" required />
         </div>
 
         <div className="form-group">
-          <input type="email" className="form-control" placeholder="Email" required />
+          <input type="email" name="email" className="form-control" placeholder="Email" required />
         </div>
 
         <div className="form-group">
-          <textarea className="form-control" placeholder="Message" required />
+          <textarea name="message" className="form-control" placeholder="Message" required />
         </div>
 
         <button type="submit" className="btn">
