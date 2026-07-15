@@ -218,12 +218,49 @@ h2::after {
   border-radius: 16px;
   border: 1px solid var(--border);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.project-category {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--primary);
+  margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .card:hover,
 .project-card:hover {
   transform: translateY(-8px);
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-content h3 {
+  font-size: 1.7rem;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.project-content p {
+  color: #cbd5e1;
+  line-height: 1.6;
+  flex: 1;
 }
 
 /* Contact */
