@@ -24,7 +24,7 @@ export default function Sidebar() {
         </a>
       </div>
 
-      <a href="/software1.pdf" target="_blank" className="btn">
+      <a href="/software2.pdf" target="_blank" className="btn">
         View Resume
       </a>
     </aside>
